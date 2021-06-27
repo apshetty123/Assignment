@@ -31,7 +31,7 @@ else{
     $r=0;
     $s=0;
     $val=vadapav($bread,$vada);
-    $x=$val['price'];
+    $e=$val['price'];
     $y=$val['bread'];
     $z=$val['vada'];
     $remaining_vada=$vada-$z;
@@ -40,7 +40,7 @@ else{
        $s=$r['price'];
 
     }
-    echo $final=$x+$s;
+    echo $final=$e+$s;
 }
 
 } 
